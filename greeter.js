@@ -35,3 +35,8 @@ function greeter(person) {
 }
 var user = new Student('Jane', "M.", "User");
 document.body.innerHTML = greeter(user);
+// 模板字符串
+var name = "Gene";
+var age = 34;
+var sentence = "<br > Hello,my name is " + name + ",I'll be " + (age + 1) + " years old next month";
+document.body.innerHTML += sentence;
